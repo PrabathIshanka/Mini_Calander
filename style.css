@@ -1,3 +1,5 @@
+/* Set the background color of the entire body, height to full viewport height, 
+   center content vertically and horizontally, remove default margin, and set font */
 body {
   background-color: navajowhite;
   height: 100vh;
@@ -8,6 +10,8 @@ body {
   font-family: cursive;
 }
 
+/* Style the calendar container with background color, dimensions, border radius,
+     center text, box shadow for depth effect, and hide overflow */
 .calender-container {
   background-color: white;
   height: 300px;
@@ -18,6 +22,8 @@ body {
   overflow: hidden;
 }
 
+/* Style the month name with background color, text color, font size, weight, 
+     and padding for spacing */
 .month-name {
   margin: 0;
   background-color: chocolate;
@@ -27,11 +33,13 @@ body {
   padding: 10px;
 }
 
+/* Style the day name with text color and font size */
 .day-name {
   color: darkgray;
   font-size: 20px;
 }
 
+/* Style the day number with text color, font size, margin, and weight */
 .day-number {
   color: darkgray;
   font-size: 80px;
@@ -39,6 +47,7 @@ body {
   font-weight: bold;
 }
 
+/* Style the year with text color, font size, margin for spacing, and font weight */
 .year {
   color: darkgray;
   font-size: 20px;
